@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(145deg, #0d0d0f, #1a1a1d, #111113);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main-container {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffd54f;
+    margin-bottom: 5px;
+}
+
+.subscribers {
+    font-size: 18px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+}
+
+.logo-card {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ffffff10, #00000070);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.logo-card img {
+    width: 140px;
+}
+
+.timer-box {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffd54f;
+}
+
+.join-btn {
+    margin-top: 25px;
+    padding: 15px 40px;
+    font-size: 40px;
+    font-weight: 700;
+    background: #ffd54f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000;
+    animation: fade 1.5s infinite;
+    transition: 0.2s;
+}
+
+.join-btn:active {
+    transform: scale(0.95);
+}
+
+@keyframes fade {
+    0% { opacity: 1; }
+    50% { opacity: .4; }
+    100% { opacity: 1; }
+}
+
+.disc {
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+}
